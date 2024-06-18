@@ -1,0 +1,32 @@
+
+.sidebar{
+	width: 20%;
+	position: relative; 
+
+}
+
+.shrink-sidebar{
+	  width: 30px;
+}
+
+.main-container{
+	
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	padding:20px;
+	display: flex;
+	gap:13px;
+}
+
+
+
+.main-content{
+	border:1px solid green;
+	border-radius: 7px;
+	width:80%;
+	flex:1;
+}
+
+
+
