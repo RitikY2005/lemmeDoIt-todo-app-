@@ -1,4 +1,5 @@
-
+import searchIcon from '../../assets/icons/search.svg';
+import Task from '../Task/Task';
 import './Sidebar.css';
 
 function Sidebar(){
@@ -13,11 +14,14 @@ function Sidebar(){
                     </div>
 
                     <div className="searchbar-wrapper">
-                       search
+                       <div className="searchbar">
+                       	 <img src={searchIcon} alt="search icon"  />
+                       	 <input type="text" placeholder='search..' name='searchText'  />
+                       </div>
                     </div>
 
                     <div className="tasks-wrapper">
-                      task
+                      <Task />
                     </div>
 
                     <div className='category'>
