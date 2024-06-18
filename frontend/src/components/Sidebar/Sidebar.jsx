@@ -2,7 +2,7 @@ import searchIcon from '../../assets/icons/search.svg';
 import Task from '../Task/Task';
 import './Sidebar.css';
 
-function Sidebar(){
+function Sidebar({showActiveComponent}){
 	return (
 		
           <div className='sidebar-wrapper'>
@@ -21,7 +21,7 @@ function Sidebar(){
                     </div>
 
                     <div className="tasks-wrapper">
-                      <Task />
+                      <Task showActiveComponent={showActiveComponent}/>
                     </div>
 
                     <div className='category'>

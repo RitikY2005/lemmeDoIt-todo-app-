@@ -1,0 +1,11 @@
+.todo-list-tile{
+	display: flex;
+	border:1px solid black;
+	justify-content: space-between;
+	padding: 5px 10px;
+}
+
+.w-todo-list-tile{
+	display: flex;
+	gap:10px;
+}
