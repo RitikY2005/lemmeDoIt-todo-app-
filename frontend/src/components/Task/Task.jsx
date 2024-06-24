@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function Task({showActiveComponent}){
 
-    const [showToday,setShowToday]= useState(false);
+  
 
 	return <div className="task"> 
 	 <div className="task-title">tasks</div>
@@ -16,7 +16,7 @@ function Task({showActiveComponent}){
     
       <TaskTiles title={'today'} icon={todayIcon} count={'3'} showActiveComponent={showActiveComponent} whichComponent={'today'}/>
 
-       <TaskTiles title={'sticky wall'} icon={stickyWallIcon} whichComponent={'upcoming'} showActiveComponent={showActiveComponent} count={'5'} />
+       <TaskTiles title={'sticky wall'} icon={stickyWallIcon} whichComponent={'stickyWall'} showActiveComponent={showActiveComponent} count={'5'} />
 
 
 	</div>

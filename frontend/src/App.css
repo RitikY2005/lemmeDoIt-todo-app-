@@ -26,6 +26,8 @@ background-color: #80808026;
 	border-radius: 7px;
 	width:80%;
 	flex:1;
+	position: relative;
+	
 }
 
 

@@ -1,11 +1,13 @@
-import plusIcon from '../../../assets/icons/plus.svg';
-import './AddTodo.css';
 
-function AddTodo(){
+import plusIcon from '../../../assets/icons/plus.svg';
+
+
+function AddTodo({toggleTodoInfo}){
+
 	return (
-	<div className="todo"> 
-	    <img src={plusIcon} alt="plus icon" />
-	    <input type="text" placeholder="Add New Task" name="newTask" />
+		<div> 
+	 <img src={plusIcon} alt="plus sign" />
+     <button onClick={()=>toggleTodoInfo()}>Add to do</button>
 	</div>
 	)
 }
